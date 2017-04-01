@@ -59,6 +59,6 @@ $route['about'] = 'about/index';
 $route['teammate/([a-zA-Z]+)'] = 'about/member/$1';
 $route['history'] = "HistoryController/index";
 $route['assembly'] = 'assemblycon';
-
+$route['manage'] = 'manage/index';
 
 
