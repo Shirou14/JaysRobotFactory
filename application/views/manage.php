@@ -12,10 +12,14 @@
         <div class="4-md-col" id="login">
             <!--This is a form to "register" with the PRC servers. It sounds a lot like logging in.
             I assume a form is used at some point.-->
-            <form>
-                <!-- login requires team name (savable as a config ...detail?) and token (do not save this)-->
-                
+
+           <form method="post" action="/Manage/register">
+                {header}
+                <font color = "blue">{teamname}
+                {secrettoken}
+                {submit}</font>
             </form>
+
         </div>
         <div class="4-md-col" id="control">
             <!--This control is for augmenting key-value pairs for app configuration (still not sure what this means)-->
